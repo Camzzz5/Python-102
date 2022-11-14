@@ -20,5 +20,5 @@ print(C)
 C=B.difference(A)
 print(C)
 #Diferencia simetrica
-C = A.symmetricdifference(B)
+C = A.symmetric_difference(B)
 C = A^B

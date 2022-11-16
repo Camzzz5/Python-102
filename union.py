@@ -21,4 +21,10 @@ C=B.difference(A)
 print(C)
 #Diferencia simetrica
 C = A.symmetric_difference(B)
+print(C)
 C = A^B
+print(C)
+
+listaz = [i if i%2 == 0 else "impar" for i in range(0,11) ]
+print(listaz)
+
